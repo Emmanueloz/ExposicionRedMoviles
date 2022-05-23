@@ -28,7 +28,7 @@
      inkscape:document-units="px"
      showgrid="false"
      inkscape:zoom="0.24030582"
-     inkscape:cx="-216.39093"
+     inkscape:cx="324.5864"
      inkscape:cy="692.86711"
      inkscape:window-width="1366"
      inkscape:window-height="700"
@@ -42,7 +42,7 @@
        inkscape:collect="always"
        id="linearGradient882">
       <stop
-         style="stop-color:#1a116f;stop-opacity:1"
+         style="stop-color:#1f1169;stop-opacity:1"
          offset="0"
          id="stop878" />
       <stop
@@ -54,10 +54,10 @@
        inkscape:collect="always"
        xlink:href="#linearGradient882"
        id="linearGradient884"
-       x1="1.2971894"
-       y1="1.6201508"
-       x2="1024.6144"
-       y2="776.52185"
+       x1="155.06738"
+       y1="104.20302"
+       x2="931.54645"
+       y2="663.45807"
        gradientUnits="userSpaceOnUse" />
   </defs>
   <g
@@ -70,6 +70,9 @@
        width="1023.3172"
        height="774.90167"
        x="1.2971894"
-       y="1.6201508" />
+       y="1.6201508"
+       inkscape:export-filename="/home/emmanuelad/Escuela/CBTA/ofimatica/exposicion/pagina/img/fondoTablet.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96" />
   </g>
 </svg>

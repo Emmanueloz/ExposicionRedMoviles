@@ -6,9 +6,48 @@
 
 html {
     font-size: 62.5%;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
 }
 
 body {
     background-image: url("./img/fondoMovil.png");
     background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+main .portada h1 {
+    font-size: 2.4rem;
+    text-align: center;
+    margin: 10px;
+}
+
+main .temas {
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+main .temas h2{
+    font-size: 2rem;
+    color: white;
+}
+
+main .temas .temas-img{
+    display: flex;
+    flex-direction: row;
+}
+
+main .temas .temas-img .TimBerners {
+    width: 65%;
+    height: 25%;
+    margin-top: 10px;
+}
+
+main .temas .temas-img .WWW {
+    width: 25%;
+    height: 25%;
+    margin-top: 10px;
+    margin-left: 10px;
 }

@@ -2,4 +2,31 @@
 body {
     background-image: url("./img/fondo.png");
     background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+main .temas {
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+main .temas h2 {
+    width: 100%;
+    margin-left: 20px;
+}
+
+main .temas .temas-img{
+    width: 100%;
+    padding: 10px;
+    justify-content: space-around;
+}
+
+main .temas .temas-img .TimBerners {
+    max-width: 600px;
+    height: 340px;
+}
+
+main .temas .temas-img .WWW {
+    max-width: 300px;
+    height: 300px;
 }

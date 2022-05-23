@@ -26,7 +26,7 @@
      showgrid="false"
      inkscape:zoom="0.32492054"
      inkscape:cx="378.55409"
-     inkscape:cy="620.15161"
+     inkscape:cy="620.15162"
      inkscape:window-width="1366"
      inkscape:window-height="700"
      inkscape:window-x="0"
@@ -39,11 +39,11 @@
        inkscape:collect="always"
        id="linearGradient17940">
       <stop
-         style="stop-color:#12065e;stop-opacity:1"
+         style="stop-color:#26196b;stop-opacity:1"
          offset="0"
          id="stop17936" />
       <stop
-         style="stop-color:#e3173d;stop-opacity:1"
+         style="stop-color:#da1547;stop-opacity:1"
          offset="1"
          id="stop17938" />
     </linearGradient>
@@ -59,10 +59,10 @@
        inkscape:collect="always"
        xlink:href="#linearGradient17940"
        id="linearGradient17942"
-       x1="1.7098216"
-       y1="-3.0594482"
-       x2="643.80518"
-       y2="1137.7239"
+       x1="150.8015"
+       y1="138.34584"
+       x2="537.90308"
+       y2="993.84967"
        gradientUnits="userSpaceOnUse" />
   </defs>
   <g

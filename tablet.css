@@ -2,4 +2,36 @@
 body {
     background-image: url("./img/fondoTablet.png");
     background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+main .temas {
+    flex-direction: column;
+}
+
+main .temas h2 {
+    width: 100%;
+    font-size: 2.8rem;
+    margin-bottom: 5px;
+}
+
+main .temas p{
+    width: 100%;
+    font-size: 2rem;
+    margin-bottom: 5px;
+}
+
+main .temas .temas-img {
+    display: flex;
+    width: 100%;
+}
+
+main .temas .temas-img .TimBerners {
+    width: 50%;
+    height: 30%;
+}
+
+main .temas .temas-img .WWW {
+    width: 35%;
+    margin-left: 10px;
 }
