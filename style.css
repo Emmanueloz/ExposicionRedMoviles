@@ -7,3 +7,8 @@
 html {
     font-size: 62.5%;
 }
+
+body {
+    background-image: url("./img/fondoMovil.png");
+    background-repeat: no-repeat;
+}
