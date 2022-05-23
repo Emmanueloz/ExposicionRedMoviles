@@ -35,3 +35,24 @@ main .temas .temas-img .WWW {
     width: 35%;
     margin-left: 10px;
 }
+
+main .temas .img2{
+    position: relative;
+    justify-content: initial;
+    display: flex;
+    flex-direction: row;
+}
+
+main .temas .temas-img .img-nexus{
+    width: 35%;
+}
+
+main .temas .temas-img .img-netscape{
+    width: 40%;
+    position: relative;
+    top: 0;
+}
+
+main .temas .temas-img .img-mosaic{
+    width: 35%;
+}

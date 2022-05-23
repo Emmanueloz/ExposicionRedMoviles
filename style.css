@@ -34,6 +34,10 @@ main .temas h2{
     color: white;
 }
 
+main .temas p {
+    margin-top: 10px;
+}
+
 main .temas .temas-img{
     display: flex;
     flex-direction: row;
@@ -50,4 +54,27 @@ main .temas .temas-img .WWW {
     height: 25%;
     margin-top: 10px;
     margin-left: 10px;
+}
+
+main .temas .img2{
+    position: relative;
+    justify-content: center;
+}
+
+main .temas .temas-img .img-nexus{
+    width: 60%;
+}
+
+main .temas .temas-img .img-netscape{
+    width: 80%;
+    position: absolute;
+    top: 120px;
+}
+
+main .temas .temas-img .img-mosaic{
+    width: 60%;
+}
+
+main .temas .img2 img{
+    width: 80%;
 }
