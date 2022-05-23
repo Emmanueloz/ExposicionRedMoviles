@@ -11,6 +11,8 @@ html {
 }
 
 body {
+    position: relative;
+    top: 0;
     background-image: url("./img/fondoMovil.png");
     background-repeat: no-repeat;
     background-attachment: fixed;
