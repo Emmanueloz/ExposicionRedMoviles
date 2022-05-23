@@ -36,13 +36,21 @@ main .temas h2{
     color: white;
 }
 
+main .temas h3{
+    font-size: 1.9rem;
+    text-align: center;
+    margin: 5px;
+}
+
 main .temas p {
     margin-top: 10px;
+    margin-bottom: 10px;
 }
 
 main .temas .temas-img{
     display: flex;
     flex-direction: row;
+    flex-wrap: wrap;
 }
 
 main .temas .temas-img .TimBerners {
@@ -59,24 +67,57 @@ main .temas .temas-img .WWW {
 }
 
 main .temas .img2{
-    position: relative;
     justify-content: center;
 }
 
+main .temas .img2 figure{
+    margin: 2px 5px;
+}
+
+main .temas .img2 figure figcaption{
+    font-size: 1.8rem;
+}
+
 main .temas .temas-img .img-nexus{
-    width: 60%;
+    width: 45%;
+    order: 1;
 }
 
 main .temas .temas-img .img-netscape{
     width: 80%;
-    position: absolute;
-    top: 120px;
+    order: 3;
 }
 
 main .temas .temas-img .img-mosaic{
-    width: 60%;
+    width: 45%;
+    order: 2;
 }
 
 main .temas .img2 img{
-    width: 80%;
+    width: 100%;
+}
+
+main .temas .img3{
+    display: flex;
+    justify-content: space-around;
+}
+
+main .temas .img3 figure {
+    width: 100%;
+}
+
+main .temas .img3 .netscape-browser{
+    margin-bottom: 10px;
+}
+
+main .temas .img3 .versus{
+    width: 50px;
+    height: 50px;
+    margin-bottom: 10px;
+    background-image: url("./img/competitionLite.png");
+    background-repeat: no-repeat;
+}
+
+main .temas .img3 figure img {
+    width: 100%;
 }

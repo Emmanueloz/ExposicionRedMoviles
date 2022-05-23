@@ -15,6 +15,11 @@ main .temas h2 {
     margin-bottom: 5px;
 }
 
+main .temas h3{
+    font-size: 1.9rem;
+    margin: 10px;
+}
+
 main .temas p{
     width: 100%;
     font-size: 2rem;
@@ -41,18 +46,43 @@ main .temas .img2{
     justify-content: initial;
     display: flex;
     flex-direction: row;
+    justify-content: space-around;
 }
 
 main .temas .temas-img .img-nexus{
-    width: 35%;
+    width: 30%;
 }
 
 main .temas .temas-img .img-netscape{
-    width: 40%;
-    position: relative;
-    top: 0;
+    width: 30%;
 }
 
 main .temas .temas-img .img-mosaic{
-    width: 35%;
+    width: 30%;
+}
+
+main .temas .img3{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: row;
+}
+
+main .temas .img3 .netscape-browser{
+    width: 45%;
+    margin-bottom: 10px;
+}
+
+main .temas .img3 .versus{
+    width: 50px;
+    height: 50px;
+    margin-bottom: 10px;
+}
+
+main .temas .img3 .internet_Explorer-browser{
+    width: 45%;
+}
+
+main .temas .img3 figure img {
+    width: 100%;
 }

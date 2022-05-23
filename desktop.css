@@ -22,8 +22,10 @@ main .temas .temas-img{
 }
 
 main .temas .temas-img .TimBerners {
-    max-width: 600px;
-    height: 340px;
+    min-width: 600px;
+    max-width: 620px;
+    min-height: 340px;
+    max-height: 420px;
 }
 
 main .temas .temas-img .WWW {
