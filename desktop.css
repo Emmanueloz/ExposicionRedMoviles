@@ -46,6 +46,13 @@ main .temas .img5 .steve-jobs {
     width: 40%;
 }
 
+main .temas .img6{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: center;
+}
+
 main .temas .img6 .firefox-browser{
     width: 40%;
 }
