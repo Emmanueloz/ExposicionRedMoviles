@@ -17,19 +17,29 @@ body {
     background-repeat: no-repeat;
     background-attachment: fixed;
 }
-
+/*Estilos de portada*/
 main .portada h1 {
     font-size: 2.4rem;
     text-align: center;
     margin: 10px;
 }
 
+img {
+    border-radius: 10px;
+    width: 100%;
+}
+
+
+
+/*Estilos de temas*/
 main .temas {
     padding: 10px;
     display: flex;
     flex-direction: column;
     justify-content: center;
 }
+
+/*Primer tema*/
 
 main .temas h2{
     font-size: 2rem;
@@ -45,6 +55,8 @@ main .temas h3{
 main .temas p {
     margin-top: 10px;
     margin-bottom: 10px;
+    font-size: 1.8rem;
+    text-align: justify;
 }
 
 main .temas .temas-img{
@@ -120,4 +132,48 @@ main .temas .img3 .versus{
 
 main .temas .img3 figure img {
     width: 100%;
+}
+
+main .temas .img4 .grafica-browser {
+    width: 100%;
+}
+
+main .temas .img4 .grafica-browser img {
+    width: 100%;
+}
+
+main .temas .img4 .grafica-browser figcaption {
+    font-size: 1.8rem;
+    text-align: center;
+}
+
+
+main .temas .caida-hacenso-de-navegadores{
+    /*width: 100%;*/
+    padding: 10px;
+    font-size: 1.8rem;
+}
+
+main .temas .img5 .internet-explorer__mac {
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+main .temas .img5 .steve-jobs {
+    width: 100%;
+}
+
+main .temas .img6 {
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+}
+
+main .temas .img6 .firefox-browser{
+    width: 70%;
+    margin-bottom: 10px;
+}
+
+main .temas .img6 .proyecto-mozilla {
+    width: 70%;
 }

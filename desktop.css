@@ -32,3 +32,24 @@ main .temas .temas-img .WWW {
     max-width: 300px;
     height: 300px;
 }
+
+main .temas .img5 .internet-explorer__mac {
+    width: 40%;
+    margin-bottom: 0;
+}
+
+main .temas .img4 .grafica-browser {
+    width: 80%;
+}
+
+main .temas .img5 .steve-jobs {
+    width: 40%;
+}
+
+main .temas .img6 .firefox-browser{
+    width: 40%;
+}
+
+main .temas .img6 .proyecto-mozilla {
+    width: 40%;
+}
