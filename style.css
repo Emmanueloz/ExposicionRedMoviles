@@ -1,265 +1,367 @@
 * {
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
 }
 
 html {
-    font-size: 62.5%;
-    font-family: Arial, Helvetica, sans-serif;
-    color: white;
+  font-size: 62.5%;
+  font-family: Arial, Helvetica, sans-serif;
+  color: white;
 }
 
 body {
-    position: relative;
-    top: 0;
-    background-color: #4334cc;
-    background-image: url("./img/fondoMovil.png");
-    background-repeat: no-repeat;
-    background-attachment: fixed;
+  position: relative;
+  top: 0;
+  background-color: #0a1395;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='100%25' height='100%25' viewBox='0 0 1200 800'%3E%3Cdefs%3E%3CradialGradient id='a' cx='0' cy='800' r='800' gradientUnits='userSpaceOnUse'%3E%3Cstop offset='0' stop-color='%235b1785'/%3E%3Cstop offset='1' stop-color='%235b1785' stop-opacity='0'/%3E%3C/radialGradient%3E%3CradialGradient id='b' cx='1200' cy='800' r='800' gradientUnits='userSpaceOnUse'%3E%3Cstop offset='0' stop-color='%238c1371'/%3E%3Cstop offset='1' stop-color='%238c1371' stop-opacity='0'/%3E%3C/radialGradient%3E%3CradialGradient id='c' cx='600' cy='0' r='600' gradientUnits='userSpaceOnUse'%3E%3Cstop offset='0' stop-color='%23a7175a'/%3E%3Cstop offset='1' stop-color='%23a7175a' stop-opacity='0'/%3E%3C/radialGradient%3E%3CradialGradient id='d' cx='600' cy='800' r='600' gradientUnits='userSpaceOnUse'%3E%3Cstop offset='0' stop-color='%230A1395'/%3E%3Cstop offset='1' stop-color='%230A1395' stop-opacity='0'/%3E%3C/radialGradient%3E%3CradialGradient id='e' cx='0' cy='0' r='800' gradientUnits='userSpaceOnUse'%3E%3Cstop offset='0' stop-color='%23801A72'/%3E%3Cstop offset='1' stop-color='%23801A72' stop-opacity='0'/%3E%3C/radialGradient%3E%3CradialGradient id='f' cx='1200' cy='0' r='800' gradientUnits='userSpaceOnUse'%3E%3Cstop offset='0' stop-color='%23C6133A'/%3E%3Cstop offset='1' stop-color='%23C6133A' stop-opacity='0'/%3E%3C/radialGradient%3E%3C/defs%3E%3Crect fill='url(%23a)' width='1200' height='800'/%3E%3Crect fill='url(%23b)' width='1200' height='800'/%3E%3Crect fill='url(%23c)' width='1200' height='800'/%3E%3Crect fill='url(%23d)' width='1200' height='800'/%3E%3Crect fill='url(%23e)' width='1200' height='800'/%3E%3Crect fill='url(%23f)' width='1200' height='800'/%3E%3C/svg%3E");
+  background-attachment: fixed;
+  background-size: cover;
 }
+
+main .separador {
+  color: white;
+}
+
 /*Estilos de portada*/
 main .portada h1 {
-    font-size: 2.4rem;
-    text-align: center;
-    margin: 10px;
+  font-size: 2.4rem;
+  text-align: center;
+  margin: 10px;
 }
 
 img {
-    border-radius: 10px;
-    width: 100%;
+  border-radius: 10px;
+  width: 100%;
 }
-
-
 
 /*Estilos de temas*/
 main .temas {
-    padding: 10px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 
 /*Primer tema*/
 
-main .temas h2{
-    font-size: 2rem;
-    color: white;
+main .temas h2 {
+  font-size: 2rem;
+  color: white;
 }
 
-main .temas h3{
-    font-size: 1.9rem;
-    text-align: center;
-    margin: 5px;
+main .temas h3 {
+  font-size: 1.9rem;
+  text-align: center;
+  margin: 5px;
 }
 
 main .temas p {
-    margin-top: 10px;
-    margin-bottom: 10px;
-    font-size: 1.8rem;
-    text-align: justify;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  font-size: 1.8rem;
+  text-align: justify;
 }
 
-main .temas .temas-img{
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
+main .temas .temas-img {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
 }
 
 main .temas .temas-img .TimBerners {
-    width: 65%;
-    height: 25%;
-    margin-top: 10px;
+  width: 65%;
+  height: 25%;
+  margin-top: 10px;
 }
 
 main .temas .temas-img .WWW {
-    width: 25%;
-    height: 25%;
-    margin-top: 10px;
-    margin-left: 10px;
+  width: 25%;
+  height: 25%;
+  margin-top: 10px;
+  margin-left: 10px;
 }
 
-main .temas .img2{
-    justify-content: center;
+main .temas .img2 {
+  justify-content: center;
 }
 
-main .temas .img2 figure{
-    margin: 2px 5px;
+main .temas .img2 figure {
+  margin: 2px 5px;
 }
 
-main .temas .img2 figure figcaption{
-    font-size: 1.8rem;
+main .temas .img2 figure figcaption {
+  font-size: 1.8rem;
 }
 
-main .temas .temas-img .img-nexus{
-    width: 45%;
-    order: 1;
+main .temas .temas-img .img-nexus {
+  width: 45%;
+  order: 1;
 }
 
-main .temas .temas-img .img-netscape{
-    width: 80%;
-    order: 3;
+main .temas .temas-img .img-netscape {
+  width: 80%;
+  order: 3;
 }
 
-main .temas .temas-img .img-mosaic{
-    width: 45%;
-    order: 2;
+main .temas .temas-img .img-mosaic {
+  width: 45%;
+  order: 2;
 }
 
-main .temas .img2 img{
-    width: 100%;
+main .temas .img2 img {
+  width: 100%;
 }
 
-main .temas .img3{
-    display: flex;
-    justify-content: space-around;
+main .temas .img3 {
+  display: flex;
+  justify-content: space-around;
 }
 
 main .temas .img3 figure {
-    width: 100%;
+  width: 100%;
 }
 
-main .temas .img3 .netscape-browser{
-    margin-bottom: 10px;
+main .temas .img3 .netscape-browser {
+  margin-bottom: 10px;
 }
 
-main .temas .img3 .versus{
-    width: 50px;
-    height: 50px;
-    margin-bottom: 10px;
-    background-image: url("./img/competitionLite.png");
-    background-repeat: no-repeat;
-    background-size: cover;
+main .temas .img3 .versus {
+  width: 50px;
+  height: 50px;
+  margin-bottom: 10px;
+  background-image: url("./img/competitionLite.png");
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 main .temas .img3 figure img {
-    width: 100%;
+  width: 100%;
 }
 
 main .temas .img4 .grafica-browser {
-    width: 100%;
+  width: 100%;
 }
 
 main .temas .img4 .grafica-browser img {
-    width: 100%;
+  width: 100%;
 }
 
 main .temas .img4 .grafica-browser figcaption {
-    font-size: 1.8rem;
-    text-align: center;
+  font-size: 1.8rem;
+  text-align: center;
 }
 
-
-main .temas .caida-hacenso-de-navegadores{
-    /*width: 100%;*/
-    padding: 10px;
-    font-size: 1.8rem;
+main .temas .caida-hacenso-de-navegadores {
+  /*width: 100%;*/
+  padding: 10px;
+  font-size: 1.8rem;
 }
 
 main .temas .img5 .internet-explorer__mac {
-    width: 100%;
-    margin-bottom: 10px;
+  width: 100%;
+  margin-bottom: 10px;
 }
 
 main .temas .img5 .steve-jobs {
-    width: 100%;
+  width: 100%;
 }
 
 main .temas .img6 {
-    display: flex;
-    flex-direction: column-reverse;
-    align-items: center;
+  display: flex;
+  flex-direction: column-reverse;
+  align-items: center;
 }
 
-main .temas .img6 .firefox-browser{
-    width: 70%;
-    margin-bottom: 10px;
+main .temas .img6 .firefox-browser {
+  width: 70%;
+  margin-bottom: 10px;
 }
 
 main .temas .img6 .proyecto-mozilla {
-    width: 70%;
+  width: 70%;
 }
 
 /*Estilos del tema 2*/
 
 main .tema-dos {
-    padding: 10px;
+  padding: 10px;
 }
 
-main .tema-dos h2{
-    font-size: 2rem;
+main .tema-dos h2 {
+  font-size: 2rem;
 }
 
-main .tema-dos .portada-tema-dos{
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-template-rows: 1fr 1fr 1fr;
-    border: 1px solid #3a47be;
-    border-radius: 10px;
+main .tema-dos .portada-tema-dos {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
+  border: 1px solid #3a47be;
+  border-radius: 10px;
 }
 
-main .tema-dos img{
-    width: 100%;
+main .tema-dos img {
+  width: 100%;
 }
 
-main .tema-dos .portada-tema-dos figure{
-    padding: 5px;
+main .tema-dos .portada-tema-dos figure {
+  padding: 5px;
 }
 
-main .tema-dos .portada-tema-dos a{
-    text-decoration: none;
-    color:white;
+main .tema-dos .portada-tema-dos a {
+  text-decoration: none;
+  color: white;
 }
 
 main .tema-dos .portada-tema-dos a figure figcaption {
-    font-size: 1.6rem;
-    text-align: center;
+  font-size: 1.6rem;
+  text-align: center;
 }
 
-main .tema-dos .carecteristicas-browser{
-    display: flex;
-    flex-direction: column;
-    flex-wrap: wrap;
-    align-items: center;
-    padding: 15px;
+main .tema-dos .carecteristicas-browser {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-items: center;
+  padding: 15px;
 }
 
-main .tema-dos .carecteristicas-browser p{
-    font-size: 1.8rem;
+main .tema-dos .carecteristicas-browser p {
+  font-size: 1.8rem;
 }
 
-main .tema-dos .carecteristicas-browser figure{
-    width: 75%;
-    margin: 0 auto;
+main .tema-dos .carecteristicas-browser figure {
+  width: 75%;
+  margin: 0 auto;
 }
 
 main .tema-dos .carecteristicas-browser figure figcaption {
-    font-size: 1.8rem;
-    text-align: center;
+  font-size: 1.8rem;
+  text-align: center;
 }
 
-main .tema-dos .carecteristicas-browser .caracteristicas{
-    font-size: 1.8rem;
-    margin-bottom: 20px;
-    margin-left: 5px;
+main .tema-dos .carecteristicas-browser .caracteristicas {
+  font-size: 1.8rem;
+  margin-bottom: 20px;
+  margin-left: 5px;
 }
 
-main .tema-dos .carecteristicas-browser .caracteristicas li{
-    margin-top: 5px;
+main .tema-dos .carecteristicas-browser .caracteristicas li {
+  margin-top: 5px;
 }
 
 main .tema-dos .tema-dos__chromium figure {
-    width: 75%;
-    margin: 0 auto;
+  width: 75%;
+  margin: 0 auto;
 }
 
 main .tema-dos .tema-dos__chromium figcaption {
-    font-size: 1.6rem;
-    text-align: center;
+  font-size: 1.6rem;
+  text-align: center;
 }
 
 main .tema-dos .tema-dos__chromium p {
-    font-size: 1.8rem;
-    margin: 10px;
-    text-align: justify;
+  font-size: 1.8rem;
+  margin: 10px;
+  text-align: justify;
+}
+
+/*Estilos del temaa tres*/
+
+main .tema-tres {
+  padding: 10px;
+}
+
+main .tema-tres h2 {
+  font-size: 2rem;
+}
+
+main .tema-tres p {
+  font-size: 1.8rem;
+}
+
+main .tema-tres .error-img {
+  display: flex;
+  flex-direction: column;
+}
+
+main .tema-tres .error-img img {
+  width: 95%;
+}
+
+main .tema-tres .error-img figcaption {
+  font-size: 1.8rem;
+  text-align: center;
+}
+
+/*Estilos del tema 4*/
+
+main .tema-cuatros {
+  padding: 10px;
+}
+
+main .tema-cuatros h2 {
+  font-size: 2rem;
+}
+
+main .tema-cuatros p {
+  font-size: 1.8rem;
+}
+
+main .tema-cuatros .img7 {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+}
+
+main .tema-cuatros .img7 figure {
+  width: 90%;
+  margin: 0 auto;
+  margin-bottom: 20px;
+}
+
+main .tema-cuatros .img7 figure figcaption {
+  font-size: 1.8rem;
+  text-align: center;
+}
+
+main .tema-cuatros h3 {
+  font-size: 1.8rem;
+  margin-bottom: 10px;
+}
+
+main .tema-cuatros ul {
+  padding-left: 20px;
+  font-size: 1.8rem;
+}
+
+/*Estilos del tema 5*/
+
+main .tema-cinco {
+  padding: 10px;
+}
+
+main .tema-cinco h2 {
+  font-size: 2rem;
+}
+
+main .tema-cinco p {
+  font-size: 1.8rem;
+}
+
+main .tema-cinco .error-img {
+  display: flex;
+  flex-direction: column;
+}
+
+main .tema-cinco .error-img img {
+  width: 95%;
+}
+
+main .tema-cinco .error-img figcaption {
+  font-size: 1.8rem;
+  text-align: center;
 }
