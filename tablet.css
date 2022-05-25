@@ -1,8 +1,10 @@
 
 body {
+    background-color: #4334cc;
     background-image: url("./img/fondoTablet.png");
     background-repeat: no-repeat;
     background-attachment: fixed;
+    background-size: cover;
 }
 
 main .temas {
@@ -115,4 +117,54 @@ main .temas .img6 .firefox-browser{
 
 main .temas .img6 .proyecto-mozilla {
     width: 45%;
+}
+
+/*Estilos del tema 2*/
+
+main .tema-dos h2{
+    font-size: 2.8rem;
+}
+
+main .tema-dos .portada-tema-dos{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    width: 95%;
+    margin: 0 auto;
+}
+
+main .tema-dos .carecteristicas-browser{
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+main .tema-dos .carecteristicas-browser div{
+    width: 50%;
+    padding: 8px;
+}
+
+main .tema-dos .carecteristicas-browser div #safari{
+   width: 85%;
+   margin-bottom: 10px;
+}
+
+main .tema-dos .carecteristicas-browser .caracteristicas{
+    font-size: 2rem;
+}
+
+main .tema-dos .tema-dos__chromium figure {
+    width: 50%;
+    margin: 0 auto;
+}
+
+main .tema-dos .tema-dos__chromium figcaption {
+    font-size: 1.8rem;
+    text-align: center;
+}
+
+main .tema-dos .tema-dos__chromium p {
+    font-size: 2rem;
+    margin: 10px;
+    text-align: justify;
 }

@@ -13,6 +13,7 @@ html {
 body {
     position: relative;
     top: 0;
+    background-color: #4334cc;
     background-image: url("./img/fondoMovil.png");
     background-repeat: no-repeat;
     background-attachment: fixed;
@@ -128,6 +129,7 @@ main .temas .img3 .versus{
     margin-bottom: 10px;
     background-image: url("./img/competitionLite.png");
     background-repeat: no-repeat;
+    background-size: cover;
 }
 
 main .temas .img3 figure img {
@@ -176,4 +178,88 @@ main .temas .img6 .firefox-browser{
 
 main .temas .img6 .proyecto-mozilla {
     width: 70%;
+}
+
+/*Estilos del tema 2*/
+
+main .tema-dos {
+    padding: 10px;
+}
+
+main .tema-dos h2{
+    font-size: 2rem;
+}
+
+main .tema-dos .portada-tema-dos{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    border: 1px solid #3a47be;
+    border-radius: 10px;
+}
+
+main .tema-dos img{
+    width: 100%;
+}
+
+main .tema-dos .portada-tema-dos figure{
+    padding: 5px;
+}
+
+main .tema-dos .portada-tema-dos a{
+    text-decoration: none;
+    color:white;
+}
+
+main .tema-dos .portada-tema-dos a figure figcaption {
+    font-size: 1.6rem;
+    text-align: center;
+}
+
+main .tema-dos .carecteristicas-browser{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    padding: 15px;
+}
+
+main .tema-dos .carecteristicas-browser p{
+    font-size: 1.8rem;
+}
+
+main .tema-dos .carecteristicas-browser figure{
+    width: 75%;
+    margin: 0 auto;
+}
+
+main .tema-dos .carecteristicas-browser figure figcaption {
+    font-size: 1.8rem;
+    text-align: center;
+}
+
+main .tema-dos .carecteristicas-browser .caracteristicas{
+    font-size: 1.8rem;
+    margin-bottom: 20px;
+    margin-left: 5px;
+}
+
+main .tema-dos .carecteristicas-browser .caracteristicas li{
+    margin-top: 5px;
+}
+
+main .tema-dos .tema-dos__chromium figure {
+    width: 75%;
+    margin: 0 auto;
+}
+
+main .tema-dos .tema-dos__chromium figcaption {
+    font-size: 1.6rem;
+    text-align: center;
+}
+
+main .tema-dos .tema-dos__chromium p {
+    font-size: 1.8rem;
+    margin: 10px;
+    text-align: justify;
 }

@@ -1,8 +1,10 @@
 
 body {
+    background-color: #4334cc;
     background-image: url("./img/fondo.png");
     background-repeat: no-repeat;
-    background-attachment: fixed;
+    background-attachment: fixed; 
+    background-size: cover;
 }
 
 main .temas {
@@ -13,6 +15,11 @@ main .temas {
 main .temas h2 {
     width: 100%;
     margin-left: 20px;
+}
+
+main .temas p {
+    width: 90%;
+    font-size: 2rem;
 }
 
 main .temas .temas-img{
@@ -33,13 +40,18 @@ main .temas .temas-img .WWW {
     height: 300px;
 }
 
+main .temas .caida-hacenso-de-navegadores{
+    width: 90%;
+    font-size: 2rem;
+}
+
 main .temas .img5 .internet-explorer__mac {
     width: 40%;
     margin-bottom: 0;
 }
 
 main .temas .img4 .grafica-browser {
-    width: 80%;
+    width: 75%;
 }
 
 main .temas .img5 .steve-jobs {
@@ -53,10 +65,74 @@ main .temas .img6{
         align-items: center;
 }
 
+main .temas .luego-netscape{
+    width: 90%;
+}
+
 main .temas .img6 .firefox-browser{
-    width: 40%;
+    width: 36%;
 }
 
 main .temas .img6 .proyecto-mozilla {
-    width: 40%;
+    width: 36%;
+}
+
+/*Estilos del tema 2*/
+main .tema-dos h2{
+    font-size: 2.8rem;
+}
+
+main .tema-dos .portada-tema-dos{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr ;
+    margin: 0 auto;
+    margin-top: 10px;
+    border: 1px solid #3a47be;
+    padding: 10px;
+}
+
+
+main .tema-dos .portada-tema-dos a figure figcaption {
+    font-size: 2rem;
+    text-align: center;
+}
+
+main .tema-dos .carecteristicas-browser div{
+    width: 30%;
+    padding: 8px;
+}
+
+main .tema-dos .carecteristicas-browser{
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+main .tema-dos .carecteristicas-browser .caracteristicas{
+    font-size: 2rem;
+}
+
+main .tema-dos .carecteristicas-browser figure figcaption {
+    font-size: 2rem;
+    text-align: center;
+}
+
+main .tema-dos .tema-dos__chromium figure {
+    width: 30%;
+    margin: 0 auto;
+}
+
+main .tema-dos .tema-dos__chromium figcaption {
+    font-size: 2rem;
+    text-align: center;
+}
+
+main .tema-dos .tema-dos__chromium p {
+    font-size: 2rem;
+    margin: 10px;
+    text-align: justify;
+    width: 90%;
+    margin: 0 auto;
 }
