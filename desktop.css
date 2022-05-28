@@ -59,6 +59,11 @@ main .temas .img4 .grafica-browser figcaption {
   font-size: 2rem;
 }
 
+main .temas .img5 p{
+  font-size: 2rem;
+  text-align: center;
+}
+
 main .temas .img5 .steve-jobs {
   width: 40%;
 }

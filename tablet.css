@@ -153,6 +153,11 @@ main .temas .img5 .internet-explorer__mac {
   margin-bottom: 0;
 }
 
+main .temas .img5 p{
+  font-size: 2rem;
+  text-align: center;
+}
+
 main .temas .img5 .steve-jobs {
   width: 45%;
 }

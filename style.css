@@ -197,6 +197,16 @@ main .temas .img5 .internet-explorer__mac {
   margin-bottom: 10px;
 }
 
+main .temas .img5 .internet-explorer__mac p{
+  font-size: 1.8rem;
+  text-align: center;
+}
+
+main .temas .img5 p a{
+  color: white;
+  text-decoration: none;
+}
+
 main .temas .img5 .steve-jobs {
   width: 100%;
 }
