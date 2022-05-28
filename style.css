@@ -30,6 +30,42 @@ main .portada h1 {
   margin: 10px;
 }
 
+main .portada .portada-img{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr ;
+  margin: 20px;
+}
+
+main .portada .portada-img figure{
+  margin: 5px;
+}
+
+main .portada .portada-img figure:nth-child(4){
+  grid-column: 2 / 3;
+  grid-row: 2 / 3;
+}
+
+main .portada .portada-img figure:nth-child(5){
+  grid-column: 1 / 2;
+  grid-row: 3 / 4;
+}
+
+main .portada .portada-img figure:nth-child(6){
+  grid-column: 2 / 3;
+  grid-row: 3 / 4;
+}
+
+main .portada .portada-img figure:nth-child(7){
+  grid-column: 3 / 4;
+  grid-row: 3 / 4;
+}
+
+main .portada .portada-img figure {
+  position: relative;
+  rotate: 180;
+}
+
 img {
   border-radius: 10px;
   width: 100%;
@@ -67,19 +103,17 @@ main .temas .temas-img {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
 }
 
 main .temas .temas-img .TimBerners {
   width: 65%;
-  height: 25%;
   margin-top: 10px;
 }
 
-main .temas .temas-img .WWW {
+main .temas .temas-img .www {
   width: 25%;
-  height: 25%;
-  margin-top: 10px;
-  margin-left: 10px;
 }
 
 main .temas .img2 {
@@ -276,22 +310,20 @@ main .tema-tres h2 {
   font-size: 2rem;
 }
 
+main .tema-tres h3 {
+  font-size: 1.9rem;
+  text-align: left;
+  margin: 5px;
+}
+
+main .tema-tres .img-tema3 figure{
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
 main .tema-tres p {
   font-size: 1.8rem;
-}
-
-main .tema-tres .error-img {
-  display: flex;
-  flex-direction: column;
-}
-
-main .tema-tres .error-img img {
-  width: 95%;
-}
-
-main .tema-tres .error-img figcaption {
-  font-size: 1.8rem;
-  text-align: center;
+  text-align: justify;
 }
 
 /*Estilos del tema 4*/

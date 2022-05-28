@@ -8,6 +8,7 @@ body {
 
 main .portada h1 {
   font-size: 3.2rem;
+  margin-bottom: 20px;
 }
 
 main .temas {
@@ -27,20 +28,17 @@ main .temas p {
 
 main .temas .temas-img {
   width: 100%;
-  padding: 10px;
+  display: flex;
   justify-content: space-around;
+  align-items: center;
 }
 
 main .temas .temas-img .TimBerners {
-  min-width: 600px;
-  max-width: 620px;
-  min-height: 340px;
-  max-height: 420px;
+  width: 60%;
 }
 
 main .temas .temas-img .WWW {
-  max-width: 300px;
-  height: 300px;
+  width: 40%;
 }
 
 main .temas .caida-hacenso-de-navegadores {
@@ -55,6 +53,10 @@ main .temas .img5 .internet-explorer__mac {
 
 main .temas .img4 .grafica-browser {
   width: 75%;
+}
+
+main .temas .img4 .grafica-browser figcaption {
+  font-size: 2rem;
 }
 
 main .temas .img5 .steve-jobs {
@@ -145,18 +147,34 @@ main .tema-dos .tema-dos__chromium p {
 
 /*Estilos del tama 3*/
 
-main .tema-tres .error-img {
-  flex-direction: row-reverse;
-  align-items: center;
+main .tema-tres h2 {
+  font-size: 2.8rem;
 }
 
-main .tema-tres .error-img img {
-  width: 45%;
-}
-
-main .tema-tres .error-img figcaption {
-  font-size: 2rem;
+main .tema-tres h3 {
+  font-size: 2.1rem;
   text-align: left;
+  margin: 5px;
+  margin-left: 30px;
+}
+
+main .tema-tres .img-tema3 {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 90%;
+    margin: 0 auto;
+}
+
+main .tema-tres .img-tema3 figure {
+  margin: 20px;
+  width: 40%;
+}
+
+main .tema-tres p {
+  font-size: 2rem;
+  width: 90%;
+  margin: 0 auto;
 }
 
 /*Estilos del tema 4*/
