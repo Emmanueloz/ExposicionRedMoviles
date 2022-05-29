@@ -19,8 +19,15 @@ body {
   background-size: cover;
 }
 
-main .separador {
+body .separador {
   color: white;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+main .separador{
+  width: 90%;
+  margin: 0 auto;
 }
 
 /*Estilos de portada*/
@@ -394,16 +401,66 @@ main .tema-cinco p {
   font-size: 1.8rem;
 }
 
-main .tema-cinco .error-img {
+main .tema-cinco .portada-cinco{
+  display: flex;
+  margin: 0 auto;
+  align-items: center;
+  width: 90%;
+  margin-bottom: 20px;
+}
+
+main .tema-cinco .portada-cinco .portada-esquina {
+  width: 30%;
   display: flex;
   flex-direction: column;
 }
 
-main .tema-cinco .error-img img {
-  width: 95%;
+main .tema-cinco .portada-cinco .portada-esquina figure:nth-child(1){
+  margin-bottom: 40px;
 }
 
-main .tema-cinco .error-img figcaption {
+main .tema-cinco .portada-cinco .portada-center {
+  width: 40%;
+  display: flex;
+  flex-direction: column;
+}
+
+main .tema-cinco .portada-cinco .portada-center figure:nth-child(1) {
+  margin-bottom: 30px;
+} 
+
+main .tema-cinco h3{
+  font-size: 1.9rem;
+}
+
+main .tema-cinco .img-tema__cinco {
+  margin-top: 10px;
+  display: flex;
+  flex-direction: column;
+}
+
+main .tema-cinco .img-tema__cinco figure{
+  margin-bottom: 10px;
+}
+
+/*Estilos del footer*/
+
+footer{
   font-size: 1.8rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
   text-align: center;
+  height: 150px;
+  padding: 10px;
+}
+
+footer p a{
+  display: inline-block;
+  width: 30px;
+}
+
+footer p a img{
+  width: 100%;
 }
